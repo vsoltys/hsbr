@@ -14,7 +14,6 @@ public class Dish {
 
     private final String description;
 
-    @Getter
     private boolean delivered = false;
 
     public static Dish deliver(Dish dish) {
